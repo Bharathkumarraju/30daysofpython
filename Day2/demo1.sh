@@ -43,3 +43,10 @@
 8
 >>>
 
+>>> another_list = ["Ion", "Gnanam", "raju"]
+>>> bharath_raju = another_list[2]
+>>> bharath_raju
+'raju'
+>>>
+
+
