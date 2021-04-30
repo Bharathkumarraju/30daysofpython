@@ -10,3 +10,13 @@
 >>>
 
 
+>>> tup[3]
+('five', 'six')
+>>> tup[0]
+'one'
+>>> tup[2]
+('three', 'four')
+>>> tup[1]
+'two'
+>>>
+
