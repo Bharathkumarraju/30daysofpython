@@ -50,3 +50,16 @@
 >>>
 
 
+>>> the_list = [1, 2, 3]
+>>> the_list
+[1, 2, 3]
+>>> the_list.pop(0)
+1
+>>> the_list
+[2, 3]
+>>> the_list.pop(0)
+2
+>>> the_list
+[3]
+>>>
+
