@@ -31,3 +31,19 @@
 >>> new_abc
 {'abc': 'A string', 'another': 'Another string', 'yetanother': 'Yet another string', 0: 'another one in the dict', 'list': [1, 2, 3]}
 >>>
+
+
+>>> new_abc
+{'abc': 'A string', 'another': 'Another string', 'yetanother': 'Yet another string', 0: 'another one in the dict', 'list': [1, 2, 3]}
+>>> new_abc['abc2'] = new_abc
+>>> new_abc
+{'abc': 'A string', 'another': 'Another string', 'yetanother': 'Yet another string', 0: 'another one in the dict', 'list': [1, 2, 3], 'abc2': {...}}
+>>>
+
+
+>>> new_abc
+{'abc': 'A string', 'another': 'Another string', 'yetanother': 'Yet another string', 0: 'another one in the dict', 'list': [1, 2, 3], 'abc2': {...}}
+>>> new_abc["abc2"]
+{'abc': 'A string', 'another': 'Another string', 'yetanother': 'Yet another string', 0: 'another one in the dict', 'list': [1, 2, 3], 'abc2': {...}}
+>>>
+
