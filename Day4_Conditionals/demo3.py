@@ -1,8 +1,6 @@
-list_a = [1, 2, 3, 4, 5, 6]
+list_a = [6, 2, 5, 1, 4, 3]
 
-list_b = [6, 2, 5, 1, 4, 3]
-
-for i in list_b:
+for i in list_a:
     if i == 1:
         print("Hey guys this ONE")
     elif i == 2:
